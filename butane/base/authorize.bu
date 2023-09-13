@@ -4,4 +4,4 @@ passwd:
   users:
     - name: ats@saks.industries
       ssh_authorized_keys:
-        - ssh-rsa AAAAC3NzaC1lZDI1NTE5AAAAIOiddYg8v/u1QAp0yaCbJkUOp/PzI6jkHetqVD/TA9m9
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOiddYg8v/u1QAp0yaCbJkUOp/PzI6jkHetqVD/TA9m9
