@@ -1,0 +1,28 @@
+{
+  "ignition": {
+    "config": {
+      "merge": [
+        {
+          "compression": "gzip",
+          "source": "data:;base64,H4sIAAAAAAAC/1TNQQrCMBCF4X0gd5gLWHXhJpcpYzqa0NoJ85IWPb1gKepu+PiZt7BlnmugW1R4t4gh6xzo3F26k3eFgXUI3hE1iOFzER1o5ocEYvDISLny5kR301b2bEvXJDL9wqBxFNsFSD23mtTyS4Z+lCf6SSNPf0+iWMXxu9eVdvXuHQAA//+yJ6ZivgAAAA=="
+        },
+        {
+          "compression": "gzip",
+          "source": "data:;base64,H4sIAAAAAAAC/2yQQWvjMBCF74H8h4E920qWXcjqtoXSW3to72Zkj+uhsiZoxk7TX18U44aW6CDEN2+e3syMmTGZh74V3W5mysqSPOzrv/Vuu1GTjK/ktxuAjvVNL68KOpq5JQ+uo9mVggvnijvXSibRKohYVXBRA5z4SI1hiOShx6i04CNmY2NJi2vxTdMYKHv4swCAiIGihyxiK/oF/2OUFo0ADSKhGhzgge/ABGygi7jXGp6J4PHp5R4wyEzlngxsYK1XK+UPakYOHg77f79XmqlwD5YnWoNdlbsf0VpJhpwoayn0HEnPajRehzqiDR7cjNlFDu57Qzk3t1m2c/niRkMveUTz8N5/oRPb0IwyJWumxLak/wwAAP//kBBLG94BAAA="
+        }
+      ]
+    },
+    "version": "3.4.0"
+  },
+  "storage": {
+    "files": [
+      {
+        "path": "/etc/containers/systemd/hello.container",
+        "contents": {
+          "compression": "gzip",
+          "source": "data:;base64,H4sIAAAAAAAC/3TPvW7CMBTF8d2S3+GKhSmkzJGHfiA1QxlaKgaUwXFOiYVjR9c3Jbx91YK6sR3pv5zf4TN6abR6QXbsR/EpmleEkOgD/O0dtNrbKNlEyDnxqUgx+IiVWD5CtHr8EvC9qNXhOUWxPoIbrf731g4w7ZQvbZrXWtWDPcJ0yZ3AK5/KW9FqM8OZsvWxzD0VjhbCdqQlZi/0sKR6u6Pd5v2tonPvA0h4QkVdIrg+0VWxTxy6inIARlr/1ojF37M6ZrEhNFcguqeLGaYgvpgy+Eb4CQAA//9YePUdHgEAAA=="
+        }
+      }
+    ]
+  }
+}

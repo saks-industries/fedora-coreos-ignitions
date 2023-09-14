@@ -1,0 +1,15 @@
+variant: fcos
+version: 1.5.0
+ignition:
+  config:
+    merge:
+      - local: butane/base/authorize.bu
+        compression: ""
+      - local: butane/base/single-disk.bu
+        compression: ""
+storage:
+  files:
+    - path: /etc/containers/systemd/hello.container
+      contents:
+        local: etc/hello.container.service
+        compression: ""
